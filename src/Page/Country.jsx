@@ -154,7 +154,7 @@ const Country = () => {
         Top Attractive Destinations from Different Countries
       </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto lg:p-0 md:px-5 px-3 mt-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto lg:p-0 md:px-5 px-2 mt-12">
       {data?.map((list) => (
             <ListCard key={list.id} list={list}/>
             ))}
