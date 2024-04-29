@@ -73,7 +73,7 @@ const Update = () => {
           <input
             type="number"
             name="averageCost"
-            className="w-full md:py-5 py-2 md:text-base border text-sm mt-3 rounded-lg px-5"
+            className="w-full md:py-5 py-2 md:text-base border text-sm mt-2 rounded-lg px-5"
             defaultValue={data.averageCost}
             required
           />
