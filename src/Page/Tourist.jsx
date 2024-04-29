@@ -27,7 +27,7 @@ const Tourist = () => {
       <p className="text-center lg:w-[70%] md:w-[80%] w-full mx-auto my-5 md:text-base text-sm md:leading-7 leading-relaxed">
         The most attractive and beautiful spot in Europe attracted by our tourists
       </p>
-      <div className="max-w-7xl mx-auto lg:p-0 md:px-5 px-3 ">
+      <div className="max-w-7xl mx-auto lg:p-0 md:px-5 px-2 ">
         <div className=" grid grid-cols-1 md:grid-cols-3 gap-8">
           {myList?.map((list) => (
             <ListCard key={list.id} list={list} />
