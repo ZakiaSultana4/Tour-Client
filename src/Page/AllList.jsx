@@ -74,7 +74,7 @@ const AllList = () => {
           type="submit"
           onClick={() => handleSearch()}
           className="md:py-5 py-3 md:px-10 px-6 md:text-lg text-base font-semibold rounded-r-lg text-white
-           bg-[#FF4838] shadow-lg"
+           bg-[#FF4837] shadow-lg"
         >
           Search
         </button>
