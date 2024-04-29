@@ -132,7 +132,7 @@ const MyList = () => {
       </>
     ) : (
       <div className="text-center">
-        <h2 className="md:text-4xl text-2xl font-bold  text-green-500 my-10">
+        <h2 className="md:text-4xl text-2xl font-bold  text-orange-600 my-10">
           You do not add any Spot Yet!
         </h2>
       </div>
