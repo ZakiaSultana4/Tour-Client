@@ -12,5 +12,5 @@
 
 **Spot listing and management System :** User can add a spot.They also update and delete the spot which they add.
 
-
+**Spot Booking :** User can also book any spot which spot they like most.Also they can cancel their booking.
 
