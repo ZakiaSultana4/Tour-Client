@@ -95,7 +95,7 @@ const Details = () => {
               <Link>
                 <button
                   onClick={handleAddToCart}
-                  className="rounded-md px-4 py-4"
+                  className="rounded-md px-3 py-4"
                 >
                   Book The Spot
                 </button>
