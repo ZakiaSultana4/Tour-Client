@@ -47,7 +47,7 @@ const Home = () => {
 
           <div className=" grid grid-cols-1 md:grid-cols-2 sm:grid-cols-3  xl:grid-cols-3 gap-5  mt-10 w-full ">
             {brandLoading && (
-              <p className="font-bold mt-4 text-2xl">Brand Loading...</p>
+              <p className="font-bold mt-4 text-2xl">Spot Loading...</p>
             )}
             {brands?.map((item) => (
               <CountryCard key={item.id} item={item} />
