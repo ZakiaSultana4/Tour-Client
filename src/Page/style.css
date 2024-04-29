@@ -1,0 +1,62 @@
+
+.login-container {
+    background: url("https://arid-html.vercel.app/main-file/dist/assets/images/packages/p2-3.webp") no-repeat center center;
+    background-size: cover;
+}
+
+.social-login-btn {
+    position: relative;
+    overflow: hidden;
+    transition: all ease-in .5s;
+}
+
+.social-login-btn  span {
+    position: absolute;
+    content: "Hello";
+    right: 120px;
+    transition: all ease-in .5s;
+}
+
+.social-login-btn:hover span {
+    position: relative;
+    right: 0;
+}
+
+.overlayz {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-container {
+    padding: 0!important;
+    position: 0!important;
+  }
