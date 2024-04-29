@@ -54,7 +54,7 @@ const AddSpot = () => {
         <meta charSet="utf-8" />
         <title>Tour|AddSpot</title>
       </Helmet>
-      <div className="max-w-7xl mx-auto lg:px-0 md:px-5 px-3 mt-10 mb-24">
+      <div className="max-w-7xl mx-auto lg:px-0 md:px-5 px-2 mt-10 mb-24">
         <form
           onSubmit={handleAdd}
           className="grid md:grid-cols-2 grid-cols-1 gap-7"
