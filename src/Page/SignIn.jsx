@@ -118,7 +118,7 @@ const SignIn = () => {
   };
 
   return (
-    <div className="login-container min-h-screen flex justify-center items-center px-3 py-5">
+    <div className="login-container min-h-screen flex justify-center items-center px-2 py-5">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Tour |Login</title>
