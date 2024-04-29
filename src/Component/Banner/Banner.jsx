@@ -32,7 +32,7 @@ const Banner = () => {
             modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper"
           >
-                        <SwiperSlide>
+            <SwiperSlide>
               <div
                 className="hero min-h-screen"
                 style={{
@@ -41,16 +41,17 @@ const Banner = () => {
               >
                 <div className="hero-overlay bg-opacity-40  bg-black"></div>
                 <div className="hero-content text-center text-neutral-content">
-                <ScrollAnimation>
+                  <ScrollAnimation>
                     <h1 className="title-text text-white md:text-7xl font-bold text-5xl">
                       <span className="text-[#FF4838] title-text">
-                      Find Your Perfect Destination 
+                        Find Your Perfect Destination
                       </span>
                       <br />
                       The Best Moment In Your Life.
                     </h1>
                     <p className="text-white md:my-8 my-5 text-3xl  md:text-6xl title-text  font-semibold">
-                    Your Adventure Travel Expert In <span className="title-text text-[#FF4838]">Peris</span>
+                      Your Adventure Travel Expert In{" "}
+                      <span className="title-text text-[#FF4838]">Peris</span>
                     </p>
                     <div>
                       <button className="btn bg-[#FF4838] text-white border-none py-1">
@@ -70,16 +71,19 @@ const Banner = () => {
               >
                 <div className="hero-overlay bg-opacity-40  bg-black"></div>
                 <div className="hero-content text-center text-neutral-content">
-                <ScrollAnimation>
-                <h1 className="title-text text-white md:text-7xl font-bold text-5xl">
+                  <ScrollAnimation>
+                    <h1 className="title-text text-white md:text-7xl font-bold text-5xl">
                       <span className="text-[#FF4838] title-text">
-                      Find Your Perfect Destination 
+                        Find Your Perfect Destination
                       </span>
                       <br />
                       The Best Moment In Your Life.
                     </h1>
                     <p className="text-white md:my-8 my-5 text-3xl  md:text-6xl title-text  font-semibold">
-                    Your Adventure Travel Expert In <span className="title-text text-[#FF4838]">Switzerland</span>
+                      Your Adventure Travel Expert In{" "}
+                      <span className="title-text text-[#FF4837]">
+                        Switzerland
+                      </span>
                     </p>
                     <div>
                       <button className="btn bg-[#FF4838] text-white border-none">
@@ -91,7 +95,6 @@ const Banner = () => {
               </div>
             </SwiperSlide>
 
-
             <SwiperSlide>
               <div
                 className="hero min-h-screen"
@@ -102,15 +105,16 @@ const Banner = () => {
                 <div className="hero-overlay bg-opacity-40  bg-black"></div>
                 <div className="hero-content text-center text-neutral-content">
                   <ScrollAnimation>
-                  <h1 className="title-text text-white md:text-7xl font-bold text-5xl">
+                    <h1 className="title-text text-white md:text-7xl font-bold text-5xl">
                       <span className="text-[#FF4838] title-text">
-                      Find Your Perfect Destination 
+                        Find Your Perfect Destination
                       </span>
                       <br />
                       The Best Moment In Your Life.
                     </h1>
                     <p className="text-white md:my-8 my-5 text-3xl  md:text-6xl title-text  font-semibold">
-                    Your Adventure Travel Expert In <span className="title-text text-[#FF4838]">Italy</span>
+                      Your Adventure Travel Expert In{" "}
+                      <span className="title-text text-[#FF4838]">Italy</span>
                     </p>
                     <div>
                       <button className="btn bg-[#FF4838] text-white border-none">
