@@ -4,7 +4,6 @@ import toast from "react-hot-toast";
 
 const Update = () => {
   const data = useLoaderData();
-
   const handleAdd = (e) => {
     e.preventDefault();
     const form = e.target;
@@ -52,7 +51,7 @@ const Update = () => {
           <input
             type="text"
             name="SpotName"
-            className="w-full md:py-5 py-2 md:text-base border text-sm mt-3 rounded-lg px-5"
+            className="w-full md:py-5 py-2 md:text-base border text-sm mt-3 rounded-lg px-4"
             defaultValue={data.SpotName}
             required
           />
